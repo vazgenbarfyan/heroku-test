@@ -33,7 +33,7 @@ async function main() {
   //         });
   //     });
 
-
+ 	console.log('started')
   const browser = await puppeteer.launch({ headless: true,args: ["--no-sandbox"] });
 	const page = await browser.newPage();
 	const proxy = ""//'https://proxybot.io/api/v1/scQtru84pDPeiB4jcNXa0FaCLdG3?geolocation_code=eu&url=';

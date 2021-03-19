@@ -24,14 +24,14 @@ async function main() {
 
   puppeteer.use(AdblockerPlugin())
 
-  http.get({'host': 'api.ipify.org', 'port': 80, 'path': '/'}, function(resp) {
-          resp.on('data', function(ip) {
-              console.log(ip.toString());
-          });
-          resp.on('error', (err)=>{
-            console.log(err);
-          });
-      });
+  // http.get({'host': 'api.ipify.org', 'port': 80, 'path': '/'}, function(resp) {
+  //         resp.on('data', function(ip) {
+  //             console.log(ip.toString());
+  //         });
+  //         resp.on('error', (err)=>{
+  //           console.log(err);
+  //         });
+  //     });
 
 
   const browser = await puppeteer.launch({ headless: true,args: ["--no-sandbox"] });

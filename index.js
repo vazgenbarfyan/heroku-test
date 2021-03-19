@@ -1,4 +1,3 @@
-const puppeteer = require("puppeteer");
 const http = require('http');
 const puppeteer = require('puppeteer-extra')
 const AdblockerPlugin = require('puppeteer-extra-plugin-adblocker')

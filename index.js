@@ -2,8 +2,6 @@ const http = require('http');
 const puppeteer = require('puppeteer-extra')
 const AdblockerPlugin = require('puppeteer-extra-plugin-adblocker')
 
-
-
 function delay(time) {
 	return new Promise(function(resolve) {
 		setTimeout(resolve, time)
@@ -75,10 +73,6 @@ async function main() {
 }
 
 main();
-
-
-
-
 
 
 

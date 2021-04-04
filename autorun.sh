@@ -1,6 +1,6 @@
 #! /bin/bash
 
-echo Hello World
+echo #################################################
 
 git status
 git add .
